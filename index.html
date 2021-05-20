@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<!-- link fontawesome -->
+	<script src="https://kit.fontawesome.com/6e4540c13e.js" crossorigin="anonymous"></script>
+	<!-- link gsap -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+	<!-- link aos -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- link css -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/setting.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/gsap.css">
+	<link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+	<header>
+		<div class="navbar" id="navbar">
+			<div class="logo">
+				<span class="logo_item">portfolio</span>
+			</div>
+			<div class="menu" id="menu">
+				<div class="hamburger">
+				    <div class="line"></div>
+				    <div class="line"></div>
+				    <div class="line"></div>
+				</div>		
+				<ul class="nav-links">
+					<li><a href="#">Home</a></li>
+					<li><a href="#info_myself">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Project</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="intro">
+			<div class="items_orig">
+				<div class="left">
+					<div class="info_left">
+					    
+					</div>
+				</div>
+				<div class="circle">
+					<div class="about">
+						<div class="ab_name">
+							<h1>I'm Công Đạt</h1>
+						</div>
+						<div class="ab_des">
+							<p>A Web Developer</p>
+						</div>
+						<div class="ab_btn">
+							<button class="about_me">
+								About Me
+							</button>
+							<button class="down_cv">
+								Download CV
+							</button>
+						</div>
+					</div>
+					
+				</div>
+				<div class="right">
+					<div class="info_right">
+						
+				    </div>
+				</div>
+			</div>
+			<!-- <div class="items_show">
+				
+			</div> -->
+		</div>
+		<div id="wave"></div>
+	</header>
+
+	<main class="content_main">
+		<div class="main">
+		     <!-- myself -->
+			<div id="info_myself" class="info_myself">
+				<div class="my_picture_show">
+					<div class="frame_picture">
+						
+					</div>
+					<div class="picture">
+						
+					</div>
+				</div>
+				<div class="info_show">
+					<h1>About Me</h1>
+					<h4>a Web Devaloper</h4>
+					<p>I’m Cong Dat. I’m a web developer, and I specialize in efficient Vuejs apps and CSS & HTML that just work across all platforms and browsers. I care deeply about building interfaces that are usable and pleasant for the most number of people possible.</p>
+				</div>
+			</div>
+			<!-- front-end -->
+			<div id="skills" class="info info_frontend">
+				<div class="star_ball star_of_front"></div>
+				<div class="item_image item_image_front">
+					<div class="border_image">
+						<div class="image"></div>
+					</div>
+					
+					<div class="ps" data-aos="fade-left"></div>
+					<div class="html" data-aos="fade-right"></div>
+					<div class="css" data-aos="fade-right"></div>
+					<div class="js" data-aos="fade-left"></div>
+				</div>
+				<div class="item_des item_des_front">
+					<div class="title_item">
+						<p class="cate">Front-End</p>
+					    <h1>Graphics Design & Front-end Developer</h1>
+					</div>
+					<div class="items html_item">
+						<i class="fas fa-bezier-curve"></i>
+						<div class="content">
+							<h2>HTML</h2>
+							<p>I have HTML skills - I can convert html, css, js from a PSD template file. I have a project like that on Git.</p>
+						</div>
+
+					</div>
+					<div class="items css_item">
+						<i class="fas fa-heartbeat" style="font-size: 6.5rem;"></i>
+						<div class="content">
+							<h2>CSS</h2>
+							<p>I have learned about css and how to use Grid and Flex in css to handle the interface quickly.</p>
+						</div>
+					</div>
+					<div class="items js_item">
+						<i class="fas fa-quidditch"></i>
+						<div class="content">
+							<h2>JS</h2>
+							<p>Tôi cũng biết căn bản về javascript, biết sử lý DOM, Events,...</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- back-end -->
+			<div class="info info_backend">
+				<div class="item_des item_des_back">
+					<div class="title_item">
+						<p class="cate">Back-End</p>
+					    <h1>Graphics Design & Back-end Developer</h1>
+					</div>
+					<div class="items php_item">
+						<i class="fab fa-linode"></i>
+						<div class="content">
+							<h2>PHP</h2>
+							<p>I have some PHP projects, so I know about OOP, Ajax, Api, Restful,...</p>
+						</div>
+					</div>
+					<div class="items nodejs_item">
+						<i class="fas fa-puzzle-piece" style="font-size: 4.4rem;"></i>
+						<div class="content">
+							<h2>MYSQL</h2>
+							<p>I used to study database at university, so I know about basic operations on mysql such as adding, deleting, editing, updating,...</p>
+						</div>
+					</div>
+					<div class="items laravel_item">
+						<i class="fab fa-laravel"></i>
+						<div class="content">
+							<h2>LARAVEL</h2>
+							<p>I have learned about the PHP framework Laravel, so I understand how it works and can use it basically.</p>
+						</div>
+					</div>
+				</div>
+				<div class="item_image item_image_back">
+					<div class="border_image">
+						<div class="image"></div>
+					</div>
+					
+					<div class="php" data-aos="fade-right"></div>
+					<div class="nodejs" data-aos="fade-left"></div>
+					<div class="laravel" data-aos="fade-right"></div>
+					<div class="react" data-aos="fade-left"></div>
+				</div>
+				<div class="star_ball star_of_back"></div>
+			</div>
+			<!-- my work -->
+			<div id="projects" class="info_my_work">
+				<div class="my_pro myself">
+					<div class="star_ball star_of_myself"></div>
+					<div class="block_1">
+						<p class="cate">Works</p>
+						<h1>Featured Work & Case Studies</h1>
+						<p>Ask logbook knowing in to when it class, for then he me you got law, from 
+						present kind and doing comments.</p>
+					</div>
+					<div class="block_2">			
+						<h3>My Design</h3>
+						<span>User Interface</span><br>
+						<span>Web Developer</span><br>
+						<span>Android & IOS Development</span><br>
+					</div>
+				</div>
+				<div class="my_pro pro_1">
+					<div class="tag_pro">
+						<div class="tag_pro_front">
+							<img src="images/frontend2.jpg" alt="project-3">
+							<div class="title">
+								<h3>Personal Blog</h3>
+								<small class="name">by Công Đạt</small>
+							</div>
+						</div>
+						<div class="tag_pro_back">
+							<h1>Hello</h1>
+							<p>Hi!! This is my Blog.</p>
+							<iframe width="420" height="315" src="https://www.youtube.com/embed/rE-dig59Ne8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>	
+				</div>
+				<div class="my_pro pro_2">
+					<div class="tag_pro">
+						<div class="tag_pro_front">
+							<img src="images/frontend3.jpg" alt="project-3">
+							<div class="title">
+								<h3>Cakes Store</h3>
+								<small class="name">by Công Đạt</small>
+							</div>
+						</div>
+						<div class="tag_pro_back">
+							<h1>Hello</h1>
+							<p>Hello!! This is my mini project about Cakes store.</p>
+							<iframe width="420" height="315" src="https://www.youtube.com/embed/kJKJNEhYocE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>	
+				</div>
+				<div class="my_pro pro_3">
+					<div class="tag_pro">
+						<div class="tag_pro_front">
+							<img src="images/frontend1.jpg" alt="project-3">
+							<div class="title">
+								<h3>My Portfolio</h3>
+								<small class="name">by Công Đạt</small>
+							</div>
+						</div>
+						<div class="tag_pro_back">
+							<h1>Hello</h1>
+							<p>Nice to meet you!! This is mini project about theme wordpress.</p>
+							<iframe width="420" height="315" src="https://www.youtube.com/embed/yjGov2lNRt4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<!-- contact me -->
+			<div id="contact" class="info_contact">
+				<div class="item_contact">
+					<h2>Contact Me</h2>
+					<p>If you want have any questions, please contact me.</p>
+				</div>
+				<div class="item_form">
+					<!-- <form action="#"> -->
+						<div class="items item_name">
+							<span>Name</span>
+							<input type="text">
+						</div>
+						<div class="items item_email">
+							<span>Email</span>
+							<input type="text">
+						</div>
+						<div class="items item_content">
+							<span>Content</span>
+							<input name="content" id="content" cols="30" rows="10"></input>
+						</div>
+					<!-- button send follow template -->
+						<div class="item_send">
+							<button class="button">
+							    <span class="default">Send</span>
+							    <span class="success">
+							        <svg viewBox="0 0 16 16">
+							            <polyline points="3.75 9 7 12 13 5"></polyline>
+							        </svg>Sent
+							    </span>
+							    <svg class="trails" viewBox="0 0 33 64">
+							        <path d="M26,4 C28,13.3333333 29,22.6666667 29,32 C29,41.3333333 28,50.6666667 26,60"></path>
+							        <path d="M6,4 C8,13.3333333 9,22.6666667 9,32 C9,41.3333333 8,50.6666667 6,60"></path>
+							    </svg>
+							    <div class="plane">
+							        <div class="left"></div>
+							        <div class="right"></div>
+							    </div>
+							</button>
+						</div>
+						<!-- --------------------- -->
+				<!-- </form> -->
+					
+				</div>
+			</div>
+
+			<!-- <div class="line_wave"></div> -->
+		</div>
+	</main>
+
+	<footer>
+		<div class="say_somethings">
+			<h2>Please Follow Me</h2>
+			<p>I live in HCM city, but I’m originally from Lisbon. English speakers like to use this phrase when mentioning their native country or city</p>
+			<div class="asocial_icon">
+				<i class="instagram fab fa-instagram"></i>
+				<i class="facebook fab fa-facebook"></i>
+				<i class="youtube fab fa-youtube"></i>
+			</div>
+			<p>Copyright by cong dat</p>
+		</div>
+	</footer>
+
+	<button onclick="scrollToTop(1000)" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+	<div class="group_social">
+		<button class="item_social instagram" title="Instagram"><a href="https://www.instagram.com/min_min.ho/"><i class="fab fa-instagram"></i></a></button>
+		<button class="item_social facebook" title="Facebook"><a href="https://www.facebook.com/profile.php?id=100020517395077"><i class="fab fa-facebook"></i></a></button>
+		<button class="item_social youtube" title="Youtube"><a href="https://www.youtube.com/channel/UCPYAowET_X_Pua7Bfje63_Q"><i class="fab fa-youtube"></i></a></button>
+	</div>
+	
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- script gsap -->
+	<script type="text/javascript" src="js/gsap.js"></script>
+	<!-- script aos -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	   AOS.init();
+	</script>
+</body>
+</html>
